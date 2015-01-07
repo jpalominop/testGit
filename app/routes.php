@@ -17,6 +17,9 @@ Route::get('/', function()
 });
 
 
+
 Route::get('/carrito', function(){
 	return "hola que hace";
 });
+
+Route::get('info','MyController@info');
